@@ -1,0 +1,25 @@
+site_name: PharmaWeave - Docs
+
+nav:
+  - Home: index.md
+  - User Stories: requirements/us.md
+  - Requisitos: requirements/rfs.md
+  - Arquitetura:
+      - UML: architecture/uml.md
+      - Sistema: architecture/system.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
