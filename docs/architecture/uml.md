@@ -1,3 +1,3 @@
 # UML
 
-![UML](/assets/uml.png)
+![UML](../assets/uml.png)

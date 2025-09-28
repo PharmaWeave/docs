@@ -1,6 +1,6 @@
 # Design de Sistema
 
-![System Design](/assets/arqsw.png)
+![System Design](../assets/arqsw.png)
 
 Este documento descreve a arquitetura de alto nível da aplicação **PharmaWeave**.
 
