@@ -6,6 +6,7 @@ nav:
   - Requisitos: requirements/rfs.md
   - Arquitetura:
       - UML: architecture/uml.md
+      - DLD: architecture/dld.md
       - Sistema: architecture/system.md
 
 theme:
