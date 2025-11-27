@@ -12,7 +12,6 @@ RF05   | Gestão de produtos           | Permitir que Gerentes e Funcionários c
 RF06   | Gestão de clientes           | Permitir que Gerentes e Funcionários cadastrem, atualizem e consultem histórico de clientes.
 RF07   | Gestão de vendas             | Permitir que Gerentes e Funcionários registrem, atualizem e revertam vendas, integrando com estoque e histórico de clientes.
 RF08   | Gestão de promoções          | Permitir que o Gerente crie e atualize promoções associadas a produtos.
-RF09   | Notificações automáticas     | O sistema deve enviar automaticamente para os Clientes notificações sobre promoções e atualizações relevantes.
 
 ## Requisitos Não Funcionais
 

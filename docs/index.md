@@ -14,8 +14,7 @@ O sistema oferece funcionalidades como:
 - Gestão de **produtos**  
 - Controle de **funcionários**  
 - Cadastro e acompanhamento de **clientes**  
-- Criação e administração de **promoções**  
-- **Envio de e-mails** automáticos sobre promoções  
+- Criação e administração de **promoções**
 
 O objetivo do projeto é proporcionar uma plataforma centralizada, intuitiva e escalável para auxiliar redes de farmácias a organizarem seus processos e fortalecerem o relacionamento com seus clientes.  
 

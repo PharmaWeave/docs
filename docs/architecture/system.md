@@ -24,16 +24,18 @@ Este documento descreve a arquitetura de alto nível da aplicação **PharmaWeav
 - **Product Service**: criação, atualização e controle de estoque de produtos.  
 - **Sale Service**: registro e controle de vendas.  
 - **Promotion Service**: criação e gerenciamento de promoções.  
-- **Branch Service**: registro e gerenciamento de unidades (filiais).  
-- **Notification Service**: integração com a AWS para envio de notificações automáticas.  
+- **Branch Service**: registro e gerenciamento de unidades (filiais).
 
-### 3. Integração com AWS
+### 3. Notification Service
 
-- Responsável pelo **processamento assíncrono de notificações**.  
-- Garante escalabilidade e confiabilidade no envio de mensagens automáticas.  
+- Consumidor da fila BullMQ que realiza integração com o Google SMTP Server para envio de emails.  
+
+### 4. Google SMTP Server
+
+- Responsável pelo **processamento de emails**.  
 
 **Fluxo de Trabalho:**
 
-1. O **Notification Service** envia mensagens para a fila **SQS**.  
-2. A função **Lambda** consome a fila e processa cada notificação.  
-3. O **SES** envia os e-mails de notificação para os clientes.
+1. O **User Service** envia mensagens para a fila **BullMQ**.
+2. O **Notification Service** consome a fila, processa cada ação e envia para o **Google SMTP Server**.  
+3. O **Google SMTP Server** envia o e-mail de início para o funcionário.
